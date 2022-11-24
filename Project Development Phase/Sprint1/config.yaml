@@ -1,12 +1,12 @@
 credentials:
   usernames:
-    jsmith:
-      email: jsmith@gmail.com
-      name: John Smith
+    pmaru:
+      email: prithivimaruthachalam@gmail.com
+      name: Prithivi Maruthachalam
       password: '123' # To be replaced with hashed password
-    rbriggs:
-      email: rbriggs@gmail.com
-      name: Rebecca Briggs
+    araja:
+      email: akshayar0811@gmail.com
+      name: Akshaya Rajasekaran
       password: '456' # To be replaced with hashed password
 cookie:
   expiry_days: 30
@@ -14,4 +14,4 @@ cookie:
   name: some_cookie_name
 preauthorized:
   emails:
-  - melsby@gmail.com
+  - prithivimaruthachalam@gmail.com

@@ -36,15 +36,3 @@ elif authentication_status == False:
     st.error('Username/password is incorrect')
 elif authentication_status == None:
     st.warning('Please enter your username and password')
-
-"""
-if submit and email == actual_email and password == actual_password:
-    # If the form is submitted and the email and password are correct,
-    # clear the form/container and display a success message
-    placeholder.empty()
-    st.success("Login successful")
-elif submit and email != actual_email and password != actual_password:
-    st.error("Login failed")
-else:
-    pass
-"""

@@ -1,7 +1,7 @@
 import wiotp.sdk.device 
 import time 
 import random 
-myConfig = {"identity":{"orgId": "1xisxi", "typeId": "raspberyypi", "deviceId": "12345"}, 
+myConfig = {"identity":{"orgId": "1xisxi", "typeId": "raspberrypi", "deviceId": "12345"}, 
 		"auth":{"token": "12345678"}
 }
 
@@ -11,6 +11,7 @@ def myCommandCallback (cmd) :
 
 client = wiotp.sdk.device.DeviceClient(config=myConfig, logHandlers=None)
 client.connect ()
+print('connected')
 
 def pub (data) :
 	client.publishEvent(eventId="status", msgFormat="json", data=myData, qos=0)
